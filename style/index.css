@@ -1,20 +1,36 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
+/* share style */
 body {
     font-family: "Quicksand", serif;
 
 }
 
+.primary-btn {
+    height: 4rem;
+    background-color: #FF900E;
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 8px ;
+    cursor: pointer;
+}
+
+/* header style */
+
 header {
     background-color: #fff4e7;
-    padding: 50px 240px;
+   
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 140px;
     
 }
 
@@ -25,7 +41,7 @@ nav > ul {
 nav li {
     font-size: 1rem;
     font-weight: 500;
-    margin-right: 30px;
+    margin-left: 30px;
     list-style: none;
 }
 
@@ -33,4 +49,28 @@ nav li {
     font-size: 2.8rem;
     font-weight: 700;
     color: #131313;
+}
+
+/* banner style */
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-left: 140px;
+    padding-right: 140px;
+}
+
+.banner-content {
+    text-align: center;
+}
+
+.banner-tittle {
+    font-size: 5rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner-description {
+    color: #727272;
 }
