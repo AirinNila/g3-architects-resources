@@ -46,7 +46,7 @@ nav li {
 }
 
 .nav-tittle {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     font-weight: 700;
     color: #131313;
 }
@@ -56,21 +56,43 @@ nav li {
 .banner {
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 2rem;
     padding-left: 140px;
     padding-right: 140px;
 }
 
 .banner-content {
     text-align: center;
+    
 }
 
 .banner-tittle {
-    font-size: 5rem;
+    font-size: 4rem;
     font-weight: 700;
     color: #131313;
+    margin-bottom: 2rem;
 }
 
 .banner-description {
     color: #727272;
+    margin-bottom: 2rem;
+}
+
+.banner-pic {
+    width: 100%;
+}
+
+/* responsive style */
+
+@media screen and (max-width: 576px) {
+    header {
+        padding: 10px 20px;
+        
+    }
+
+    nav {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
