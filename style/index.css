@@ -36,6 +36,7 @@ nav {
 
 nav > ul {
     display: flex;
+    gap: 30px;
 }
 
 nav li {
@@ -92,7 +93,14 @@ nav li {
 
     nav {
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        
+    }
+    nav li {
+        
+    }
+
+    .banner {
+        padding-left: 20px;
+        padding-right: 20px;
     }
 }
