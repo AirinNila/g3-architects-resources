@@ -451,5 +451,24 @@ footer {
     width: 60%;
     
  }
+
+ /* footer style */
+
+ 
+ footer {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+ .contact-icons {
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+   
+}
+
+.contact-icon {
+    width: 250px;
+}
     
 }
