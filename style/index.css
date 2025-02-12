@@ -151,17 +151,20 @@ main {
 
 .love-features {
     display: flex;
-    gap: 20px;
+    gap: 30px;
+    margin-top: 30px;
+   
 }
 
 .love-content-des h2 {
+    font-size: 2.8rem;
     border-left: #FF900E solid 5px;
     padding-left: 10px;
 }
 
 
 .love-content-pic {
-    width: 500px;
+    width: 480px;
     margin-left: 50px;
 }
 
@@ -173,9 +176,7 @@ main {
 
 .item-c {
     margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
+   
 }
 
 .item {
@@ -183,7 +184,7 @@ main {
     border-radius: 8px 8px;
     background-color: white;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
-  
+    margin-top: 15px;
 }
 
 /* ten-year-badge */
@@ -243,11 +244,35 @@ main {
 
     .features div {
         width: 100%;
-}
+    }
 
-.f-pic {
+    .f-pic {
     width: 80%;
-}
+    }
+
+    /* love-content-des */
+
+    .love-features {
+        display: flex;
+        gap: 15px;
+        flex-direction: column;
+    }
+
+    .love-content-pic {
+        max-width: 350px;
+        margin-left: 50px;
+    }
+
+    .ten-year-badge{
+        max-width: 200px;
+        padding: 20px 20px 20px 20px;
+       
+    }
+
+    .ten-year-badge h2 {
+        font-size: 3rem;
+    }
+
 }
 
 /* for teblet and mid-width */
@@ -292,6 +317,29 @@ main {
 
 .f-pic {
     width: 80%;
+}
+
+   /* love-content-des */
+
+   .love-features {
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+
+.love-content-pic {
+    max-width: 350px;
+    margin-left: 50px;
+}
+
+.ten-year-badge{
+    max-width: 200px;
+    padding: 20px 20px 20px 20px;
+   
+}
+
+.ten-year-badge h2 {
+    font-size: 3rem;
 }
     
 }
