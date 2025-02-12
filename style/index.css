@@ -8,7 +8,7 @@
     padding: 0;
 }
 body {
-    font-family: "Quicksand", serif;
+    font-family: "Work Sans", serif;
 
 }
 
@@ -130,8 +130,9 @@ main {
     font-weight: 700;
 }
 
-.to-our {
+.black-colour {
     color: #131313;
+    font-size: 3rem;
 }
 
 .feature-colour {
@@ -144,6 +145,68 @@ main {
     margin-bottom: 50px;
 }
 
+
+/* love features des */
+
+
+.love-features {
+    display: flex;
+    gap: 20px;
+}
+
+.love-content-des h2 {
+    border-left: #FF900E solid 5px;
+    padding-left: 10px;
+}
+
+
+.love-content-pic {
+    width: 500px;
+    margin-left: 50px;
+}
+
+.primary-gray {
+    color: #727272;
+    font-size: 0.8rem;
+    margin-top: 10px;
+}
+
+.item-c {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.item {
+    padding: 20px;
+    border-radius: 8px 8px;
+    background-color: white;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+  
+}
+
+/* ten-year-badge */
+
+.ten-year-badge {
+    height: 100px;
+    width: 300px;
+    background-color: #FF900E;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    position: relative;
+    bottom: 100px;
+
+}
+
+.ten-year-badge h2 {
+    font-size: 4rem;
+}
+
+.ten-year-badge p {
+    font-size: 1.2rem;
+}
 /* responsive style */
 
 @media screen and (max-width: 576px) {
@@ -165,7 +228,7 @@ main {
     /* feature */
 
     .features {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 50px
     }
 
@@ -209,7 +272,7 @@ main {
        /* feature */
 
        .features {
-        flex-direction: column-reverse;
+        flex-direction: column;
         gap: 50px;
     }
 
