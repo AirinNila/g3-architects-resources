@@ -272,6 +272,16 @@ footer {
     width: 120px;
 }
 
+.rights {
+    background-color: #fff4e7;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 80px;
+    padding: 25px 15px;
+    margin-bottom: 50px;
+    font-weight: 500;
+}
+
 /* responsive style */
 
 @media screen and (max-width: 576px) {
@@ -365,6 +375,8 @@ footer {
 }
 
 }
+
+
 
 /* for teblet and mid-width */
 
